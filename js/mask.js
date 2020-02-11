@@ -47,7 +47,7 @@ var getpos = () => {
 	if (navigator.geolocation)
     {
 		var mapstart = (a) => {
-			var osmUrl = 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+			var osmUrl = 'https://{s}.tile.osm.org/{z}/{x}/{y}.png',
 	 	    osmAttrib = '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	 	    osm = L.tileLayer(osmUrl, {
 	 	        maxZoom: 18,
